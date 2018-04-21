@@ -22,6 +22,11 @@ nav .brand-logo {
   display: none;
 }
 
+.card-panel:hover{
+  background-color: #ffffff !important;
+  border: 1px solid orange;
+}
+
 #contact input{
   border: 1px solid #ffffff;
   background-color: #ffffff;
