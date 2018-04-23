@@ -15,6 +15,11 @@
 main {
   flex: 1 0 auto;
 }
+.slider .slides li .caption{
+  padding: 2em;
+  background-color: rgba(54, 54, 54, 0.8);
+  width: 40%;
+}
     
 
 nav ul a,
@@ -25,8 +30,9 @@ nav .brand-logo {
 .form{
   margin-left: auto;
   margin-right: auto;
-  position: relative;
-  top: 130px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
   padding: 2em;
   width: 50%;
   height: 400px;
